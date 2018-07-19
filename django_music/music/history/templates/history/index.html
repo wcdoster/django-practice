@@ -1,0 +1,6 @@
+<h1>Artists</h1>
+<ul>
+    {% for a in artist_list %}
+        <li><a href="/history/{{a.id}}">{{ a.artist_text }}<a/></li>
+    {% endfor %}
+</ul>
